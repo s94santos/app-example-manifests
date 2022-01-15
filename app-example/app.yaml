@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: ssantos94/app:0.0.1
+        image: ssantos94/app-example:0.0.1
         ports:
         - containerPort: 3000
       imagePullSecrets:
